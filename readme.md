@@ -1,7 +1,7 @@
 # 🎌 AnimeLab  
 > *"Mau liat anime apa hari ini?"* 🍥  
 
-<img src="https://media.tenor.com/IrW2Qh9KQ2oAAAAC/anime-dance.gif" width="200" alt="Anime Girl Dancing" align="right"/>
+<img src="https://media.tenor.com/062Vi0AsY1cAAAAi/anime-shupogaki.gif" width="200" alt="Anime Girl Dancing" align="right"/>
 
 **AnimeLab** adalah website rekomendasi anime berbasis survei yang dibuat menggunakan **Next.js**.  
 Kamu cukup menjawab beberapa pertanyaan singkat tentang suasana hati dan genre favoritmu, lalu sistem akan merekomendasikan anime yang cocok untuk kamu tonton hari ini! 🌸  
