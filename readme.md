@@ -3,24 +3,24 @@
 
 <img src="https://media.tenor.com/IrW2Qh9KQ2oAAAAC/anime-dance.gif" width="200" alt="Anime Girl Dancing" align="right"/>
 
-**AnimeLab** adalah website interaktif yang membantu pengguna menemukan anime yang sesuai dengan selera mereka melalui sistem survei ringan dan menyenangkan.  
-Jawab beberapa pertanyaan, lalu biarkan **AnimeLab** merekomendasikan anime yang cocok dengan mood kamu hari ini! 🌸  
+**AnimeLab** adalah website rekomendasi anime berbasis survei yang dibuat menggunakan **Next.js**.  
+Kamu cukup menjawab beberapa pertanyaan singkat tentang suasana hati dan genre favoritmu, lalu sistem akan merekomendasikan anime yang cocok untuk kamu tonton hari ini! 🌸  
 
 ---
 
 ## 🚀 Fitur Utama
 
 - 💬 **Survei Rekomendasi Anime**  
-  Jawab pertanyaan seputar genre favorit, durasi, mood, dan popularitas.  
+  Sistem bertanya tentang mood, genre, durasi, dan tingkat popularitas anime yang kamu sukai.  
 
-- 🧠 **Sistem Rekomendasi Cerdas**  
-  Berdasarkan hasil survei, sistem menampilkan daftar anime yang paling sesuai.  
+- 🧠 **Sistem Rekomendasi Otomatis**  
+  Berdasarkan jawaban survei, AnimeLab memberikan saran anime yang sesuai dengan preferensi kamu.  
 
-- 🎨 **UI Interaktif & Responsif**  
-  Tampilan modern, ringan, dan bisa diakses dari semua perangkat.  
+- 🎨 **UI Modern & Responsif**  
+  Dibangun dengan Next.js 16 dan Tailwind CSS, serta menggunakan font **Poppins / Inter** agar tampil rapi dan elegan.  
 
 - 📅 **“Mau liat anime apa hari ini?”**  
-  Fitur utama yang membuat pengalaman browsing jadi seru dan personal.  
+  Fitur utama yang membuat pengalaman browsing terasa seperti ngobrol santai dengan teman anime.  
 
 ---
 
@@ -28,15 +28,15 @@ Jawab beberapa pertanyaan, lalu biarkan **AnimeLab** merekomendasikan anime yang
 
 | Bagian | Teknologi |
 |--------|------------|
-| Frontend | HTML, CSS, JavaScript *(atau React / Next.js)* |
-| Backend | Laravel / Node.js *(opsional)* |
-| Database | MySQL / MongoDB *(jika menyimpan hasil survei)* |
-| Styling | Tailwind CSS / Bootstrap |
-| Deployment | Vercel / Netlify / Render *(sesuaikan)* |
+| Framework | [Next.js 16](https://nextjs.org/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| Font | [Google Fonts – Poppins](https://fonts.google.com/specimen/Poppins) |
+| Deploy | [Vercel](https://vercel.com/) |
+| Bahasa | JavaScript (tanpa TypeScript) |
 
 ---
 
-## 📖 Cara Menjalankan Proyek
+## 📦 Cara Menjalankan Proyek
 
 ```bash
 # 1. Clone repositori ini
@@ -45,13 +45,9 @@ cd AnimeLab
 
 # 2. Instal dependensi
 npm install
-# atau
-composer install
 
-# 3. Jalankan server pengembangan
-npm run dev
-# atau
-php artisan serve
+# 3. Jalankan server (tanpa Turbopack agar stabil)
+npm run dev --no-turbo
 
 # 4. Buka di browser
 http://localhost:3000
